@@ -1,7 +1,12 @@
 import time
 import sys
+<<<<<<< HEAD
 from colorama import Fore, Style, init
 from animation import show_each_letter, fade_in_text, show_fade_in_and_each_letter
+=======
+from animation import show_each_letter, show_fade_in_and_each_letter, fade_in_text
+
+>>>>>>> 3703cce (Add lyric PhieuDu)
 # Nội dung
 print("\n")
 line1 = "▶  Phiêu du mây xanh \n"
@@ -23,8 +28,12 @@ line9 = "♩ Còn anh đánh mất đi cả bầu trời..."
 time.sleep(.5)  
 show_each_letter(line1, delay=0.04)     
 time.sleep(.7)  
+<<<<<<< HEAD
 show_fade_in_and_each_letter(line2, delay=0.06)
 print()    
+=======
+show_fade_in_and_each_letter(line2, delay=0.06)  
+>>>>>>> 3703cce (Add lyric PhieuDu)
 time.sleep(.7)   
 show_each_letter(line3, delay=0.045)
 fade_in_text(line3a, delay=0.07)
@@ -45,7 +54,10 @@ time.sleep(1.2)
 show_each_letter(line6, delay=0.04)      
 time.sleep(.7)  
 show_fade_in_and_each_letter(line7, delay=0.08)
+<<<<<<< HEAD
 print()  
+=======
+>>>>>>> 3703cce (Add lyric PhieuDu)
 time.sleep(.9)  
 fade_in_text(line8, delay=0.2)      
 time.sleep(1)  
