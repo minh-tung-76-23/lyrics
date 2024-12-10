@@ -48,8 +48,7 @@ def show_fade_in_and_each_letter(text, delay, steps=10):
 
     print() 
 
-def fade_in_and_move_from_right(text, delay, steps=10):
-    width = 50
+def fade_in_and_move_from_right(width, text, delay, steps):
     
     for step in range(steps + 1):
         brightness = int(255 * step / steps)
