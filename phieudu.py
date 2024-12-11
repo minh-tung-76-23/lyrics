@@ -1,7 +1,7 @@
 import time
 import sys
-from animation import show_each_letter, show_fade_in_and_each_letter, fade_in_text
-
+from colorama import Fore, Style, init
+from animation import show_each_letter, fade_in_text, show_fade_in_and_each_letter
 # Nội dung
 print("\n")
 line1 = "▶  Phiêu du mây xanh \n"
