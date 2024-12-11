@@ -61,13 +61,13 @@ def fade_out_text(text, delay, steps=10):
 # Hàm nháy với fade-in và fade-out
 def flash_line_fade_in_out_forever(line, delay):
     while True:  # Chạy vĩnh viễn
-        sys.stdout.write("\033[1;1H")  # Di chuyển con trỏ về dòng 1, cột 1
-        sys.stdout.write("\033[K")  # Xóa toàn bộ dòng 1
-        fade_in_text(line, 0.03, 10)  # Hiệu ứng fade in
-        time.sleep(delay)  # Tạm dừng
-        sys.stdout.write("\033[1;1H")  # Di chuyển con trỏ về dòng 1, cột 1
-        sys.stdout.write("\033[K")  # Xóa toàn bộ dòng 1
-        fade_out_text(line, 0.02, 10)  # Hiệu ứng fade out
+        sys.stdout.write("\033[1;1H") 
+        sys.stdout.write("\033[K")  
+        fade_in_text(line, 0.03, 10)  
+        time.sleep(delay)  
+        sys.stdout.write("\033[1;1H") 
+        sys.stdout.write("\033[K")  
+        fade_out_text(line, 0.02, 10)  
         time.sleep(delay)  
         
 # Hàm nháy với fade-in và fade-out một lần
