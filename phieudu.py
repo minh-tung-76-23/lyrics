@@ -1,12 +1,7 @@
 import time
 import sys
-<<<<<<< HEAD
-from colorama import Fore, Style, init
-from animation import show_each_letter, fade_in_text, show_fade_in_and_each_letter
-=======
 from animation import show_each_letter, show_fade_in_and_each_letter, fade_in_text
 
->>>>>>> 3703cce (Add lyric PhieuDu)
 # Nội dung
 print("\n")
 line1 = "▶  Phiêu du mây xanh \n"
