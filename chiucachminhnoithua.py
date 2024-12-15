@@ -32,7 +32,8 @@ line22 = "♫ I told you that never leave me alone..."
 
 # Thực thi
 time.sleep(.5)  
-show_fade_in_and_each_letter(line1, delay=0.04)     
+show_fade_in_and_each_letter(line1, delay=0.04)   
+print()  
 time.sleep(.2)  
 
 fade_in_text(line2, 0.15)  
@@ -61,6 +62,7 @@ print()
 
 time.sleep(1.5)  
 show_fade_in_and_each_letter(line9, delay=0.06)  
+print()  
 time.sleep(.5)  
 fade_in_text(line9a, delay=0.2)  
 print()
@@ -74,6 +76,7 @@ fade_in_text(line12, delay=0.15)
 print() 
 time.sleep(.9)  
 show_fade_in_and_each_letter(line13, delay=0.09)  
+print()  
 
 time.sleep(1.5)  
 fade_in_and_move_from_right(35,line14, 0.1, 20)      
@@ -93,6 +96,7 @@ time.sleep(2)
 fade_in_and_move_from_right(35,line20, 0.2, 20)   
 time.sleep(1)  
 show_fade_in_and_each_letter(line21, delay=0.1)    
+print()  
 time.sleep(.6) 
 show_each_letter(line21a, delay=0.09) 
 time.sleep(.6) 

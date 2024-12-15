@@ -1,6 +1,6 @@
 import time
 import sys
-from animation import fade_in_words_non_del, show_each_letter, flash_line_fade_in_out_once, fade_in_text, fade_in_and_move_from_right, fade_in_words
+from animation import *
 
 line1a = "▶ Anh thường nghĩ"
 line1 = "▶ Mình quên mất rồi"

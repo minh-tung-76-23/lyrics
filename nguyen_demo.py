@@ -16,9 +16,11 @@ line10 = "\tRồi sẽ ra sao..."
 # Thực thi
 time.sleep(.5)  
 show_fade_in_and_each_letter(line1, delay=0.07)  
+print()  
 
 time.sleep(.5)  
-show_fade_in_and_each_letter(line2, delay=0.09)   
+show_fade_in_and_each_letter(line2, delay=0.09)  
+print()   
 time.sleep(.8)  
 fade_in_text(line3, 0.2)
 print()  
