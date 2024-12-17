@@ -3,4 +3,4 @@ In case the library is not available, open the downloaded folder and run the com
 python -m pip install -r "path_requi"  
 Where path_requi is the path to the requirements file.  
 I will update it regularly, so if there are new libraries, you just need to run the command again.  
-If you want to run without using code, please download the file in the run_non_code folder (Python must be installed).
+If you want to run without using code, please download the file in the run_non_code folder.
