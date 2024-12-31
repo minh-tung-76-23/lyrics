@@ -12,7 +12,7 @@ line4 = "♪ Thành tâm với"
 line4a = "\tnốt nhạc cứu thân này..."
 
 time.sleep(.5)
-fade_in_words_non_del(line1, .01)
+fade_in_words_non_del(line1, .01, 10)
 print()
 time.sleep(.2)
 fade_in_text(line1a,0.05)
@@ -25,13 +25,13 @@ fade_in_text(line2a, .1)
 print()
 
 time.sleep(.2)
-fade_in_words_non_del(line3, .01)
+fade_in_words_non_del(line3, .01, 10)
 print()
 fade_in_text(line3a,0.1)
 print()
 
 time.sleep(.7)
-fade_in_words_non_del(line4, .01)
+fade_in_words_non_del(line4, .01, 10)
 time.sleep(.6)
 print()
 if line4a.endswith("..."):

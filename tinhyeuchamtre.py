@@ -18,7 +18,7 @@ line8a = "tình yêu sớm hơn..."
 
 time.sleep(.5)
 print()  
-fade_in_words(line1a, 0.02)
+fade_in_words(line1a, 0.02, 10)
 fade_in_text(line1, 0.2)
 print()
 
@@ -26,7 +26,7 @@ time.sleep(.9)
 fade_in_and_move_from_right(35,line2, 0.15, 20)   
 
 time.sleep(1.5)
-fade_in_words(line1a, 0.05)
+fade_in_words(line1a, 0.05, 10)
 fade_in_text(line3, 0.2)
 print()
 

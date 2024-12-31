@@ -63,7 +63,7 @@ fade_in_text(line5d, .09)
 print()
 
 time.sleep(.9)
-fade_in_words_non_del(line6, .01)
+fade_in_words_non_del(line6, .01, 10)
 print()
 show_each_letter(line6a, .07)
 fade_in_text(line6b, .09)

@@ -63,7 +63,7 @@ time.sleep(.5)
 flash_line_fade_in_out_once(line3, 3)
 flash_line_fade_in_out_once(line4, 3)
 
-fade_in_words(line4a, .01)
+fade_in_words(line4a, .01, 10)
 show_fade_in_and_each_letter(line4, .06)
 fade_in_and_move_from_right(50, line5, .02, 20)
 time.sleep(.8)
