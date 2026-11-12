@@ -6,6 +6,7 @@ __pycache__/
 
 animation.py
 animation_plus.py
+review_animation.py
 make_lyrics.py
 anmt.py
 test.py

@@ -3,6 +3,9 @@ from animation_plus import *
 
 # Chỉnh lệch toàn bài: chữ ra SỚM hơn nhạc -> tăng OFFSET (vd 0.2), TRỄ -> giảm
 OFFSET = 0.0
+# True = chữ màu, False = chữ trắng
+COLOR = True
+set_color(COLOR)
 
 song = Song(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'input/mp3/7702804085438762261.mp3'), offset=OFFSET)
 
